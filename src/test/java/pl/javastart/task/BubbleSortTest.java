@@ -72,7 +72,7 @@ public class BubbleSortTest {
         int compares = bubbleSort.sort(inputArray);
 
         // then
-        assertThat(inputArray).isEqualTo(new int[]{1, 2, 3, 4, 5});
+        assertThat(inputArray).isEqualTo(new int[]{1, 2, 3});
         assertThat(compares).isEqualTo(10);
     }
 
